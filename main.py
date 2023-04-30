@@ -6,7 +6,7 @@ import typing as tp
 from telebot import types
 
 bot = telebot.TeleBot('6264076732:AAHcQ724Ah5dmTYz2WoTbzmrnTvSM9FK7NA')
-user_id = 'base'
+user_id = 'test_base'
 
 
 @bot.message_handler(commands=['start'])
